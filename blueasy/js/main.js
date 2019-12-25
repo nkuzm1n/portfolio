@@ -32,23 +32,7 @@ is_document_ready(() => {
 			header.classList.remove('header--fixed');
 		};
 
-		let diw = $('.twitter-comment');
-		let pos = diw.position().top;
-		let scrollPos = $(window).scrollTop();
-
-		//console.log(scrollPos);
-		//console.log(pos);
-		//console.log();
-		
-
-		//if $() {
-
-		//}
-
-
   }; //window.onscroll
-
-
 
   window.onresize = () => {
   	//hide burger menu
@@ -92,8 +76,8 @@ is_document_ready(() => {
 				}
 			});
 		}
-		filterBtn.removeClass('portfolio-nav__filter-item--selected');
-		$(this).addClass('portfolio-nav__filter-item--selected');
+		filterBtn.removeClass('nav__link--active');
+		$(this).addClass('nav__link--active');
 	
 	}); // filterBtn closed
 
