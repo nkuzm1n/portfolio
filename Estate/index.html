@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Недвижимость Чебоксары</title>
+    <link rel="stylesheet" href="./assets/css/normalize.min.css" />
+    <link rel="stylesheet" href="./assets/css/slick.min.css" />
+    <link rel="stylesheet" href="./assets/css/slick-theme.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.min.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header-main">
+            <div class="header-main__contacts">
+                <div class="header__details contact-details">
+                    <a class="contact-details__link" href="#">
+                        <img class="contact-details__image" src="./assets/images/contacts/place.svg" alt="Контакты" /><span>г. Чебоксары, ул. Иванова, д.1</span>
+                    </a>
+                    <a class="contact-details__link" href="#">
+                        <img class="contact-details__image" src="./assets/images/contacts/email.svg" alt="Контакты" /><span>mail@mail.ru</span>
+                    </a>
+                    <a class="contact-details__link" href="tel:">
+                        <img class="contact-details__image" src="./assets/images/contacts/phone.svg" alt="Контакты" /><span>+7-999-123-45-67</span>
+                    </a>
+                </div>
+                <div class="header__contact contact-social">
+                    <a class="contact-social__link" href="#">
+                        <img class="contact-social__image" src="./assets/images/social/whatsapp.svg" alt="Контакты" />
+                    </a>
+                    <a class="contact-social__link" href="#">
+                        <img class="contact-social__image" src="./assets/images/social/viber.svg" alt="Контакты" />
+                    </a>
+                    <a class="contact-social__link" href="#">
+                        <img class="contact-social__image" src="./assets/images/social/instagram.svg" alt="Контакты" />
+                    </a>
+                    <a class="contact-social__link" href="#">
+                        <img class="contact-social__image" src="./assets/images/social/vk.svg" alt="Контакты" />
+                    </a>
+                </div>
+            </div>
+            <div class="header-main__block">
+                <a class="logo header__logo" href="#">Недвижимость <span>Чебоксары</span>
+                </a>
+                <nav class="nav header__nav">
+                    <ul class="nav__list">
+                        <li><a class="nav__link header__nav-link active" href="index.html"><span>Главная</span></a></li>
+                        <li><a class="nav__link header__nav-link" href="search.html"><span>Участки</span></a></li>
+                        <li><a class="nav__link header__nav-link" href="search-h.html"><span>Дома</span></a></li>
+                        <li><a class="nav__link header__nav-link" href="about.html"><span>О нас</span></a></li>
+                        <li><a class="nav__link header__nav-link" href="contact.html"><span>Контакты</span></a></li>
+                    </ul>
+                </nav>
+                <a class="btn feedback-btn header__feedback-btn"><span>Обратная связь</span></a>
+                <button class="menu__btn"><span class="menu__btn-item"></span><span class="menu__btn-item"></span><span class="menu__btn-item"></span></button>
+            </div>
+        </header>
+        <!-- /.header-main-->
+        <div class="intro">
+            <img class="intro__image" src="./assets/images/intro/intro-bg.jpg" alt="Дом" />
+            <div class="offer intro__offer">
+                <div class="offer__suptitle">
+                    <h2 class="intro__suptitle">Выгодные предложения <br> только у нас</h2>
+                </div>
+                <div class="offer__title">
+                    <h1 class="intro__title">Найди дом своей мечты!</h1>
+                </div>
+                <form id="offer-form">
+                    <div class="offer__select">
+                        <select name="Тип недвижимости">
+                            <option value="" selected="selected" disabled="disabled">Тип недвижимости</option>
+                            <option value="Дом">Дом</option>
+                            <option value="Участок">Участок</option>
+                        </select>
+                    </div>
+                    <div class="offer__number offer__from">
+                        <label for="offer-from"><span>Цена</span> от:</label>
+                        <input id="offer-from" type="number" value="0" />
+                    </div>
+                    <div class="offer__number offer__to">
+                        <label for="offer-to"><span>Цена</span> до:</label>
+                        <input id="offer-to" type="number" value="" />
+                    </div>
+                    <button class="btn offer__submit">Найти</button>
+                </form>
+            </div>
+        </div>
+        <!-- /.intro-->
+        <section class="area">
+            <div class="container">
+                <div class="area__inner">
+                    <h4 class="suptitle area__suptitle">Выгодные предложения</h4>
+                    <h3 class="title area__title">Рекомендуемые участки</h3>
+                    <div class="area__content houses">
+                        <div class="area__item houses__item">
+                            <div class="houses__card">
+                                <div class="houses__header">
+                                    <span class="houses__type">Дома</span>
+                                    <span class="houses__for">На продажу</span>
+                                    <a class="houses__image" href="#">
+                                        <img src="./assets/images/houses/house-1.jpg" alt="Фото Недвижимости" />
+                                    </a>
+                                </div>
+                                <div class="houses__info">
+                                    <span class="houses__cost">1000000 &#8381;</span>
+                                    <img class="houses__place" src="./assets/images/contacts/location.svg" alt="Иконка местоположения" />
+                                    <span class="houses__location">г. Чебоксары, ул. Иванова, д.1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="area__item houses__item">
+                            <div class="houses__card">
+                                <div class="houses__header">
+                                    <span class="houses__type">Дома</span>
+                                    <span class="houses__for">На продажу</span>
+                                    <a class="houses__image" href="#">
+                                        <img src="./assets/images/houses/house-2.jpg" alt="Фото Недвижимости" />
+                                    </a>
+                                </div>
+                                <div class="houses__info">
+                                    <span class="houses__cost">1000000 &#8381;</span>
+                                    <img class="houses__place" src="./assets/images/contacts/location.svg" alt="Иконка местоположения" />
+                                    <span class="houses__location">г. Чебоксары, ул. Иванова, д.1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="area__item houses__item">
+                            <div class="houses__card">
+                                <div class="houses__header">
+                                    <span class="houses__type">Дома</span>
+                                    <span class="houses__for houses__for--rent">В аренду</span>
+                                    <a class="houses__image" href="#">
+                                        <img src="./assets/images/houses/house-3.jpg" alt="Фото Недвижимости" />
+                                    </a>
+                                </div>
+                                <div class="houses__info">
+                                    <span class="houses__cost">1000000 &#8381;</span>
+                                    <img class="houses__place" src="./assets/images/contacts/location.svg" alt="Иконка местоположения" />
+                                    <span class="houses__location">г. Чебоксары, ул. Иванова, д.1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="area__item houses__item">
+                            <div class="houses__card">
+                                <div class="houses__header">
+                                    <span class="houses__type">Дома</span>
+                                    <span class="houses__for">На продажу</span>
+                                    <a class="houses__image" href="#">
+                                        <img src="./assets/images/houses/house-5.jpg" alt="Фото Недвижимости" />
+                                    </a>
+                                </div>
+                                <div class="houses__info">
+                                    <span class="houses__cost">1000000 &#8381;</span>
+                                    <img class="houses__place" src="./assets/images/contacts/location.svg" alt="Иконка местоположения" />
+                                    <span class="houses__location">г. Чебоксары, ул. Иванова, д.1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="area__item houses__item">
+                            <div class="houses__card">
+                                <div class="houses__header">
+                                    <span class="houses__type">Дома</span>
+                                    <span class="houses__for houses__for--rent">В аренду</span>
+                                    <a class="houses__image" href="#">
+                                        <img src="./assets/images/houses/house-7.jpg" alt="Фото Недвижимости" />
+                                    </a>
+                                </div>
+                                <div class="houses__info">
+                                    <span class="houses__cost">1000000 &#8381;</span>
+                                    <img class="houses__place" src="./assets/images/contacts/location.svg" alt="Иконка местоположения" />
+                                    <span class="houses__location">г. Чебоксары, ул. Иванова, д.1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="area__item houses__item">
+                            <div class="houses__card">
+                                <div class="houses__header">
+                                    <span class="houses__type">Дома</span>
+                                    <span class="houses__for">На продажу</span>
+                                    <a class="houses__image" href="#">
+                                        <img src="./assets/images/houses/house-6.jpg" alt="Фото Недвижимости" />
+                                    </a>
+                                </div>
+                                <div class="houses__info">
+                                    <span class="houses__cost">1000000 &#8381;</span>
+                                    <img class="houses__place" src="./assets/images/contacts/location.svg" alt="Иконка местоположения" />
+                                    <span class="houses__location">г. Чебоксары, ул. Иванова, д.1</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.area__content.houses-->
+                </div>
+                <!-- /.area__inner-->
+            </div>
+            <!-- /.container-->
+        </section>
+        <!-- /.area-->
+        <section class="map"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af7e2db5b72f78931b5459d10496451ad2cf5a780912674c336243aee8fb8e8ad&amp;source=constructor" width="100%" height="600" frameborder="0"></iframe>
+            <div class="container">
+                <div class="map__inner">
+                    <div class="map__content">
+                        <h3 class="title map__title">Где нас найти</h3>
+                        <div class="contact-details map__contact-details">
+                            <a class="map__contact-details__link contact-details__link" href="#">
+                                <img class="map__contact-details__image contact-details__image" src="./assets/images/contacts/place.svg" alt="Контакты" />
+                                <span>Вы можете найти нас по адресу:<br>г. Чебоксары, ул. Иванова, д.1</span>
+                            </a>
+                            <a class="map__contact-details__link contact-details__link" href="tel:">
+                                <img class="map__contact-details__image contact-details__image" src="./assets/images/contacts/phone.svg" alt="Контакты" />
+                                <span>Или позвонить по телефону:<br> 8-999-123-45-67</span>
+                            </a>
+                            <a class="map__contact-details__link contact-details__link" href="#">
+                                <img class="map__contact-details__image contact-details__image" src="./assets/images/contacts/email.svg" alt="Контакты" />
+                                <span>Либо cвязаться с нами по почте:<br> mail@mail.ru</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.map__inner-->
+            </div>
+            <!-- /.container-->
+        </section>
+        <!-- /.map-->
+        <section class="testimonials">
+            <div class="testimonials__image">
+                <img class="testimonials__bg" src="./assets/images/testimonials/testimonials-bg.jpg" alt="" />
+            </div>
+            <div class="testimonials__content">
+                <h4 class="suptitle testimonials__suptitle">Выгодные предложения</h4>
+                <h3 class="title testimonials__title">Отзывы клиентов</h3>
+                <div class="testimonials__slider">
+                    <div class="testimonials__item">
+                        <h5 class="testimonials__header">&ldquo;Они помогли нам найти дом&rdquo;</h5>
+                        <p class="testimonials__text">
+                            Большое спасибо риелторам за высокий темп работы,
+                            профессионализм, своевременную помощь в выборе и
+                            процедуре покупки квартиры. В срок всего 2 недели
+                            квартира была подобрана, затем удалось её купить,
+                            быстро и оперативно. Следует отметить грамотные консультации,
+                            связанные с качеством ремонта и состоянием предлагаемой квартиры.
+                            Спасибо!
+                        </p>
+                        <div class="testimonials__footer"><span class="testimonials__author">Иванова Анастасия</span><span class="testimonials__client">, Клиент</span>
+                        </div>
+                    </div>
+                    <div class="testimonials__item">
+                        <h5 class="testimonials__header">&ldquo;Они помогли нам найти дом&rdquo;</h5>
+                        <p class="testimonials__text">
+                            Большое спасибо риелторам за высокий темп работы,
+                            профессионализм, своевременную помощь в выборе и
+                            процедуре покупки квартиры. В срок всего 2 недели
+                            квартира была подобрана, затем удалось её купить,
+                            быстро и оперативно. Следует отметить грамотные консультации,
+                            связанные с качеством ремонта и состоянием предлагаемой квартиры.
+                            Спасибо!
+                        </p>
+                        <div class="testimonials__footer"><span class="testimonials__author">Иванова Анастасия</span><span class="testimonials__client">, Клиент</span>
+                        </div>
+                    </div>
+                    <div class="testimonials__item">
+                        <h5 class="testimonials__header">&ldquo;Они помогли нам найти дом&rdquo;</h5>
+                        <p class="testimonials__text">
+                            Большое спасибо риелторам за высокий темп работы,
+                            профессионализм, своевременную помощь в выборе и
+                            процедуре покупки квартиры. В срок всего 2 недели
+                            квартира была подобрана, затем удалось её купить,
+                            быстро и оперативно. Следует отметить грамотные консультации,
+                            связанные с качеством ремонта и состоянием предлагаемой квартиры.
+                            Спасибо!
+                        </p>
+                        <div class="testimonials__footer"><span class="testimonials__author">Иванова Анастасия</span><span class="testimonials__client">, Клиент</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.testimonials-->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__info"><a class="logo footer__logo" href="#">Недвижимость <span>Чебоксары</span>
+                        </a>
+                        <p class="logo__descr footer__logo-descr">
+                            Далеко-далеко за, словесными горами в стране гласных и согласных живут рыбные тексты. Сих страну инициал буквенных языком!
+                        </p>
+                        <div class="footer__contact contact-social"><a class="footer__contact-link contact-social__link" href="#">
+                                <img class="contact-social__image" src="./assets/images/social/whatsapp.svg" alt="Контакты" />
+                            </a>
+                            <a class="footer__contact-link contact-social__link" href="#">
+                                <img class="contact-social__image" src="./assets/images/social/viber.svg" alt="Контакты" />
+                            </a>
+                            <a class="footer__contact-link contact-social__link" href="#">
+                                <img class="contact-social__image" src="./assets/images/social/instagram.svg" alt="Контакты" />
+                            </a>
+                            <a class="footer__contact-link contact-social__link" href="#">
+                                <img class="contact-social__image" src="./assets/images/social/vk.svg" alt="Контакты" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__contact-details contact-details">
+                        <h5 class="contact-details__title">Контакты</h5>
+                        <a class="contact-details__link" href="#">
+                            <img class="contact-details__image" src="./assets/images/contacts/place.svg" alt="Контакты" /><span>г. Чебоксары, ул. Иванова, д.1</span>
+                        </a>
+                        <a class="contact-details__link" href="#">
+                            <img class="contact-details__image" src="./assets/images/contacts/email.svg" alt="Контакты" /><span>mail@mail.ru</span>
+                        </a>
+                        <a class="contact-details__link" href="tel:">
+                            <img class="contact-details__image" src="./assets/images/contacts/phone.svg" alt="Контакты" /><span>+7-999-123-45-67</span>
+                        </a>
+                    </div>
+                    <div class="footer__menu">
+                        <h5 class="footer__menu-title">Меню</h5>
+                        <div class="nav footer-nav">
+                            <ul class="nav__list footer-nav__list">
+                                <li><a class="nav__link footer-nav__link active" href="#">Главная</a></li>
+                                <li><a class="nav__link footer-nav__link" href="#">Участки</a></li>
+                                <li><a class="nav__link footer-nav__link" href="#">Дома</a></li>
+                                <li><a class="nav__link footer-nav__link" href="#">О нас</a></li>
+                                <li><a class="nav__link footer-nav__link" href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__bestdeal bestdeal">
+                        <h5 class="bestdeal__title">Лучшее предложение</h5>
+                        <div class="bestdeal__item houses__item">
+                            <div class="bestdeal__card houses__card">
+                                <div class="houses__header">
+                                    <span class="houses__type">Дома</span>
+                                    <span class="houses__for">На продажу</span>
+                                    <a class="houses__image" href="#">
+                                        <img src="./assets/images/houses/house-1.jpg" alt="Фото Недвижимости" /></a>
+                                </div>
+                                <div class="houses__info">
+                                    <span class="houses__cost">1000000 &#8381;</span>
+                                    <img class="houses__place" src="./assets/images/contacts/location.svg" alt="Иконка местоположения" />
+                                    <span class="houses__location">г. Чебоксары, ул. Иванова, д.1</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.footer__bestdeal.bestdeal-->
+                </div>
+                <!-- /.footer__inner-->
+            </div>
+            <!-- /.container-->
+        </footer>
+        <!-- /.footer-->
+    </div>
+    <!-- /.wrapper-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
